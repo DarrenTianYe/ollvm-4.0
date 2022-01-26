@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/darren/work/code/github/obfuscator/utils/PerfectShuffle/PerfectShuffle.cpp
+cassert
+-
+cstdlib
+-
+iomanip
+-
+iostream
+-
+vector
+-
+

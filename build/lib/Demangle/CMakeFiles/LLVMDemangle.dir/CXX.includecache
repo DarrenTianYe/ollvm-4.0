@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/Demangle/Demangle.h
+cstddef
+-
+
+/Users/darren/work/code/github/obfuscator/lib/Demangle/ItaniumDemangle.cpp
+llvm/Demangle/Demangle.h
+/Users/darren/work/code/github/obfuscator/lib/Demangle/llvm/Demangle/Demangle.h
+algorithm
+-
+cctype
+-
+cstdlib
+-
+cstring
+-
+numeric
+-
+string
+-
+vector
+-
+

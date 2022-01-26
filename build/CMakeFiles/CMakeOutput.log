@@ -1,0 +1,2078 @@
+The system is: Darwin - 19.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/darren/work/code/github/obfuscator/build/CMakeFiles/3.19.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/darren/work/code/github/obfuscator/build/CMakeFiles/3.19.4/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_f2ef8/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_f2ef8.dir/build.make CMakeFiles/cmTC_f2ef8.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl,-v -o CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_f2ef8
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ef8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -o cmTC_f2ef8 
+Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_f2ef8 -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/opt/openssl@1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_f2ef8/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_f2ef8.dir/build.make CMakeFiles/cmTC_f2ef8.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl -v -o CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_f2ef8]
+  ignore line: [/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ef8.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib -v -Wl -v CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -o cmTC_f2ef8 ]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_f2ef8 -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f2ef8] ==> ignore
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f2ef8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_343d9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_343d9.dir/build.make CMakeFiles/cmTC_343d9.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl,-v -o CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_343d9
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_343d9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_343d9 
+Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_343d9 -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-609.8
+BUILD 15:07:46 Dec 18 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/opt/openssl@1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_343d9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_343d9.dir/build.make CMakeFiles/cmTC_343d9.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -v -Wl -v -o CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_343d9]
+  ignore line: [/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_343d9.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib -v -Wl -v CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_343d9 ]
+  ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29) (Ant Secure Compiler build210705)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o cmTC_343d9 -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_343d9] ==> ignore
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_343d9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_5fd09/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_5fd09.dir/build.make CMakeFiles/cmTC_5fd09.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fd09.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_5fd09.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5fd09
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fd09.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_5fd09.dir/CheckIncludeFile.c.o -o cmTC_5fd09 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_b7260/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_b7260.dir/build.make CMakeFiles/cmTC_b7260.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7260.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_b7260.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b7260
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7260.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_b7260.dir/CheckIncludeFile.c.o -o cmTC_b7260 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_3ac3f/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_3ac3f.dir/build.make CMakeFiles/cmTC_3ac3f.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ac3f.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_3ac3f.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3ac3f
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ac3f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3ac3f.dir/CheckIncludeFile.c.o -o cmTC_3ac3f 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_e9b1a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e9b1a.dir/build.make CMakeFiles/cmTC_e9b1a.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9b1a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_e9b1a.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e9b1a
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9b1a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_e9b1a.dir/CheckIncludeFile.c.o -o cmTC_e9b1a 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d94b8/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d94b8.dir/build.make CMakeFiles/cmTC_d94b8.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d94b8.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_d94b8.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d94b8
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d94b8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d94b8.dir/CheckIncludeFile.c.o -o cmTC_d94b8 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_e78e0/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e78e0.dir/build.make CMakeFiles/cmTC_e78e0.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e78e0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_e78e0.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e78e0
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e78e0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_e78e0.dir/CheckIncludeFile.c.o -o cmTC_e78e0 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc/malloc.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_6053a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_6053a.dir/build.make CMakeFiles/cmTC_6053a.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6053a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_6053a.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6053a
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6053a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_6053a.dir/CheckIncludeFile.c.o -o cmTC_6053a 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_73398/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_73398.dir/build.make CMakeFiles/cmTC_73398.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73398.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_73398.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73398
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73398.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_73398.dir/CheckIncludeFile.c.o -o cmTC_73398 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_25355/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_25355.dir/build.make CMakeFiles/cmTC_25355.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25355.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_25355.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_25355
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25355.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_25355.dir/CheckIncludeFile.c.o -o cmTC_25355 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ec464/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ec464.dir/build.make CMakeFiles/cmTC_ec464.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec464.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_ec464.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ec464
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec464.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_ec464.dir/CheckIncludeFile.c.o -o cmTC_ec464 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_9583a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_9583a.dir/build.make CMakeFiles/cmTC_9583a.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9583a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_9583a.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9583a
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9583a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_9583a.dir/CheckIncludeFile.c.o -o cmTC_9583a 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_7113c/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7113c.dir/build.make CMakeFiles/cmTC_7113c.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7113c.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_7113c.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7113c
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7113c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_7113c.dir/CheckIncludeFile.c.o -o cmTC_7113c 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_73b12/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_73b12.dir/build.make CMakeFiles/cmTC_73b12.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73b12.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_73b12.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73b12
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73b12.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_73b12.dir/CheckIncludeFile.c.o -o cmTC_73b12 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_efe7c/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_efe7c.dir/build.make CMakeFiles/cmTC_efe7c.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efe7c.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_efe7c.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_efe7c
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efe7c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_efe7c.dir/CheckIncludeFile.c.o -o cmTC_efe7c 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_30fc3/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_30fc3.dir/build.make CMakeFiles/cmTC_30fc3.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30fc3.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_30fc3.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30fc3
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30fc3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_30fc3.dir/CheckIncludeFile.c.o -o cmTC_30fc3 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_41083/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_41083.dir/build.make CMakeFiles/cmTC_41083.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41083.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_41083.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_41083
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41083.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_41083.dir/CheckIncludeFile.c.o -o cmTC_41083 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_fb865/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_fb865.dir/build.make CMakeFiles/cmTC_fb865.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb865.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_fb865.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fb865
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb865.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_fb865.dir/CheckIncludeFile.c.o -o cmTC_fb865 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d20e6/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d20e6.dir/build.make CMakeFiles/cmTC_d20e6.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d20e6.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_d20e6.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d20e6
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d20e6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d20e6.dir/CheckIncludeFile.c.o -o cmTC_d20e6 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_0e649/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0e649.dir/build.make CMakeFiles/cmTC_0e649.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e649.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_0e649.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e649
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e649.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0e649.dir/CheckIncludeFile.c.o -o cmTC_0e649 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_36a66/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_36a66.dir/build.make CMakeFiles/cmTC_36a66.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36a66.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_36a66.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_36a66
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36a66.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_36a66.dir/CheckIncludeFile.c.o -o cmTC_36a66 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_44bdf/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_44bdf.dir/build.make CMakeFiles/cmTC_44bdf.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44bdf.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_44bdf.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_44bdf
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44bdf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_44bdf.dir/CheckIncludeFile.c.o -o cmTC_44bdf 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_a584d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a584d.dir/build.make CMakeFiles/cmTC_a584d.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a584d.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_a584d.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a584d
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a584d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_a584d.dir/CheckIncludeFile.c.o -o cmTC_a584d 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ac9ed/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ac9ed.dir/build.make CMakeFiles/cmTC_ac9ed.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac9ed.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_ac9ed.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ac9ed
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac9ed.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_ac9ed.dir/CheckIncludeFile.c.o -o cmTC_ac9ed 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_1c13b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_1c13b.dir/build.make CMakeFiles/cmTC_1c13b.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c13b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_1c13b.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c13b
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c13b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1c13b.dir/CheckSymbolExists.c.o -o cmTC_1c13b  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_f535e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_f535e.dir/build.make CMakeFiles/cmTC_f535e.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f535e.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_f535e.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f535e
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f535e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_f535e.dir/CheckSymbolExists.c.o -o cmTC_f535e  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file mach/mach.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_4a8a0/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_4a8a0.dir/build.make CMakeFiles/cmTC_4a8a0.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a8a0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_4a8a0.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4a8a0
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a8a0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_4a8a0.dir/CheckIncludeFile.c.o -o cmTC_4a8a0 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file histedit.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_00eb0/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_00eb0.dir/build.make CMakeFiles/cmTC_00eb0.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00eb0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_00eb0.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00eb0
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00eb0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_00eb0.dir/CheckIncludeFile.c.o -o cmTC_00eb0 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_CRASHREPORTER_INFO succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_29957/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_29957.dir/build.make CMakeFiles/cmTC_29957.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29957.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_CRASHREPORTER_INFO  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_29957.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_29957
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29957.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_29957.dir/src.c.o -o cmTC_29957  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+     static const char *__crashreporter_info__ = 0;
+     asm(".desc ___crashreporter_info__, 0x10");
+     int main() { return 0; }
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_0274f/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0274f.dir/build.make CMakeFiles/cmTC_0274f.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0274f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_0274f.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0274f
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0274f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0274f.dir/CheckFunctionExists.c.o -o cmTC_0274f  -lpthread -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_27be4/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_27be4.dir/build.make CMakeFiles/cmTC_27be4.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27be4.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_27be4.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_27be4
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27be4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_27be4.dir/CheckFunctionExists.c.o -o cmTC_27be4  -lpthread -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_1b296/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_1b296.dir/build.make CMakeFiles/cmTC_1b296.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b296.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_1b296.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b296
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b296.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1b296.dir/CheckFunctionExists.c.o -o cmTC_1b296  -lpthread -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_a8704/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a8704.dir/build.make CMakeFiles/cmTC_a8704.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8704.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_a8704.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8704
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8704.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_a8704.dir/CheckFunctionExists.c.o -o cmTC_a8704  -lpthread -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_97fb5/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_97fb5.dir/build.make CMakeFiles/cmTC_97fb5.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97fb5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_97fb5.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_97fb5
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97fb5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_97fb5.dir/CheckFunctionExists.c.o -o cmTC_97fb5  -ldl -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_593ca/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_593ca.dir/build.make CMakeFiles/cmTC_593ca.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_593ca.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_593ca.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_593ca
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_593ca.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_593ca.dir/CheckIncludeFile.c.o -o cmTC_593ca 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_5b4fd/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_5b4fd.dir/build.make CMakeFiles/cmTC_5b4fd.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b4fd.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_5b4fd.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b4fd
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b4fd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_5b4fd.dir/src.c.o -o cmTC_5b4fd  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_08179/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_08179.dir/build.make CMakeFiles/cmTC_08179.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08179.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_08179.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08179
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08179.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_08179.dir/CheckFunctionExists.c.o -o cmTC_08179  -lz -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function el_init exists in the edit passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_92909/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_92909.dir/build.make CMakeFiles/cmTC_92909.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92909.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=el_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_92909.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_92909
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92909.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=el_init -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_92909.dir/CheckFunctionExists.c.o -o cmTC_92909  -ledit -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setupterm exists in the curses passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_14eab/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_14eab.dir/build.make CMakeFiles/cmTC_14eab.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14eab.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_14eab.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_14eab
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14eab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_14eab.dir/CheckFunctionExists.c.o -o cmTC_14eab  -lcurses -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function xar_open exists in the xar passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_e9619/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e9619.dir/build.make CMakeFiles/cmTC_e9619.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9619.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xar_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_e9619.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9619
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9619.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=xar_open -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_e9619.dir/CheckFunctionExists.c.o -o cmTC_e9619  -lxar -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the arc4random exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_caad9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_caad9.dir/build.make CMakeFiles/cmTC_caad9.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_caad9.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_caad9.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_caad9
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caad9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_caad9.dir/CheckSymbolExists.c.o -o cmTC_caad9  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_22bce/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_22bce.dir/build.make CMakeFiles/cmTC_22bce.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22bce.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_22bce.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_22bce
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22bce.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_22bce.dir/CheckSymbolExists.c.o -o cmTC_22bce  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_73942/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_73942.dir/build.make CMakeFiles/cmTC_73942.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73942.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_73942.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_73942
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73942.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_73942.dir/CheckSymbolExists.c.o -o cmTC_73942  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_997b6/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_997b6.dir/build.make CMakeFiles/cmTC_997b6.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_997b6.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_997b6.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_997b6
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_997b6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_997b6.dir/CheckSymbolExists.c.o -o cmTC_997b6  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_1e9ff/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_1e9ff.dir/build.make CMakeFiles/cmTC_1e9ff.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e9ff.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_1e9ff.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1e9ff
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e9ff.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1e9ff.dir/CheckSymbolExists.c.o -o cmTC_1e9ff  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_85af7/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_85af7.dir/build.make CMakeFiles/cmTC_85af7.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85af7.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_85af7.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_85af7
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85af7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_85af7.dir/CheckSymbolExists.c.o -o cmTC_85af7  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_fc3b8/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_fc3b8.dir/build.make CMakeFiles/cmTC_fc3b8.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc3b8.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_fc3b8.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fc3b8
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc3b8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_fc3b8.dir/CheckSymbolExists.c.o -o cmTC_fc3b8  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_7307b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7307b.dir/build.make CMakeFiles/cmTC_7307b.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7307b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_7307b.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7307b
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7307b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_7307b.dir/CheckSymbolExists.c.o -o cmTC_7307b  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d7c90/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d7c90.dir/build.make CMakeFiles/cmTC_d7c90.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7c90.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_d7c90.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d7c90
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7c90.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d7c90.dir/CheckSymbolExists.c.o -o cmTC_d7c90  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_60972/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_60972.dir/build.make CMakeFiles/cmTC_60972.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60972.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_60972.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_60972
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60972.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_60972.dir/CheckSymbolExists.c.o -o cmTC_60972  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the writev exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_30a2e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_30a2e.dir/build.make CMakeFiles/cmTC_30a2e.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30a2e.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_30a2e.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_30a2e
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30a2e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_30a2e.dir/CheckSymbolExists.c.o -o cmTC_30a2e  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ec8cf/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ec8cf.dir/build.make CMakeFiles/cmTC_ec8cf.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec8cf.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_ec8cf.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ec8cf
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec8cf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_ec8cf.dir/CheckSymbolExists.c.o -o cmTC_ec8cf  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_4ed83/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_4ed83.dir/build.make CMakeFiles/cmTC_4ed83.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ed83.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_4ed83.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4ed83
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed83.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_4ed83.dir/CheckSymbolExists.c.o -o cmTC_4ed83  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_c7374/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_c7374.dir/build.make CMakeFiles/cmTC_c7374.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7374.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_c7374.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c7374
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7374.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_c7374.dir/CheckSymbolExists.c.o -o cmTC_c7374  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mktemp exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_f3f2b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_f3f2b.dir/build.make CMakeFiles/cmTC_f3f2b.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3f2b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_f3f2b.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f3f2b
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3f2b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_f3f2b.dir/CheckSymbolExists.c.o -o cmTC_f3f2b  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getcwd exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d9acc/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d9acc.dir/build.make CMakeFiles/cmTC_d9acc.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9acc.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_d9acc.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d9acc
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9acc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d9acc.dir/CheckSymbolExists.c.o -o cmTC_d9acc  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ca8e1/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ca8e1.dir/build.make CMakeFiles/cmTC_ca8e1.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca8e1.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_ca8e1.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ca8e1
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca8e1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_ca8e1.dir/CheckSymbolExists.c.o -o cmTC_ca8e1  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_79ddb/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_79ddb.dir/build.make CMakeFiles/cmTC_79ddb.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79ddb.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_79ddb.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_79ddb
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79ddb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_79ddb.dir/CheckSymbolExists.c.o -o cmTC_79ddb  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_9888f/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_9888f.dir/build.make CMakeFiles/cmTC_9888f.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9888f.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_9888f.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9888f
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9888f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_9888f.dir/CheckSymbolExists.c.o -o cmTC_9888f  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_3449d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_3449d.dir/build.make CMakeFiles/cmTC_3449d.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3449d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_3449d.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3449d
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3449d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3449d.dir/CheckSymbolExists.c.o -o cmTC_3449d  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_97d87/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_97d87.dir/build.make CMakeFiles/cmTC_97d87.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97d87.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_97d87.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97d87
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97d87.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_97d87.dir/CheckSymbolExists.c.o -o cmTC_97d87  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_62c9e/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_62c9e.dir/build.make CMakeFiles/cmTC_62c9e.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62c9e.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_62c9e.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: warning: 'sbrk' is deprecated [-Wdeprecated-declarations]
+  return ((int*)(&sbrk))[argc];
+                  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/unistd.h:582:1: note: 'sbrk' has been explicitly marked deprecated here
+__deprecated __WATCHOS_PROHIBITED __TVOS_PROHIBITED
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/sys/cdefs.h:196:40: note: expanded from macro '__deprecated'
+#define __deprecated    __attribute__((__deprecated__))
+                                       ^
+1 warning generated.
+Linking C executable cmTC_62c9e
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c9e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_62c9e.dir/CheckSymbolExists.c.o -o cmTC_62c9e  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_fa69a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_fa69a.dir/build.make CMakeFiles/cmTC_fa69a.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa69a.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_fa69a.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fa69a
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa69a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_fa69a.dir/CheckSymbolExists.c.o -o cmTC_fa69a  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_a838d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a838d.dir/build.make CMakeFiles/cmTC_a838d.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a838d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_a838d.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a838d
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a838d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_a838d.dir/CheckSymbolExists.c.o -o cmTC_a838d  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_5f81b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_5f81b.dir/build.make CMakeFiles/cmTC_5f81b.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f81b.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_5f81b.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5f81b
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f81b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_5f81b.dir/CheckSymbolExists.c.o -o cmTC_5f81b  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_66824/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_66824.dir/build.make CMakeFiles/cmTC_66824.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66824.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_66824.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_66824
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66824.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_66824.dir/CheckSymbolExists.c.o -o cmTC_66824  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d258d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d258d.dir/build.make CMakeFiles/cmTC_d258d.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d258d.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_d258d.dir/CheckSymbolExists.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d258d
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d258d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d258d.dir/CheckSymbolExists.c.o -o cmTC_d258d  -lm -ldl 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_4123a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_4123a.dir/build.make CMakeFiles/cmTC_4123a.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4123a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_INT64_T  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_4123a.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4123a
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4123a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_4123a.dir/src.cxx.o -o cmTC_4123a  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_be533/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_be533.dir/build.make CMakeFiles/cmTC_be533.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be533.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_UINT64_T  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_be533.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_be533
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be533.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_be533.dir/src.cxx.o -o cmTC_be533  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_3fb14/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_3fb14.dir/build.make CMakeFiles/cmTC_3fb14.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3fb14.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_U_INT64_T  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_3fb14.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3fb14
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fb14.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3fb14.dir/src.cxx.o -o cmTC_3fb14  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d6523/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d6523.dir/build.make CMakeFiles/cmTC_d6523.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6523.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_d6523.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d6523
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6523.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d6523.dir/src.cxx.o -o cmTC_d6523  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_7b335/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7b335.dir/build.make CMakeFiles/cmTC_7b335.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7b335.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_7b335.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7b335
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b335.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_7b335.dir/src.cxx.o -o cmTC_7b335  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ed944/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ed944.dir/build.make CMakeFiles/cmTC_ed944.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed944.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DLLVM_HAS_ATOMICS  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_ed944.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ed944
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed944.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_ed944.dir/src.cxx.o -o cmTC_ed944  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <Intrin.h> /* Workaround for PR19898. */
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_87a79/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_87a79.dir/build.make CMakeFiles/cmTC_87a79.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87a79.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DSUPPORTS_VARIADIC_MACROS_FLAG  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wvariadic-macros -o CMakeFiles/cmTC_87a79.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_87a79
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87a79.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_87a79.dir/src.cxx.o -o cmTC_87a79  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_07a8f/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_07a8f.dir/build.make CMakeFiles/cmTC_07a8f.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07a8f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wgnu-zero-variadic-macro-arguments -o CMakeFiles/cmTC_07a8f.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_07a8f
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07a8f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_07a8f.dir/src.cxx.o -o cmTC_07a8f  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_dc0cc/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_dc0cc.dir/build.make CMakeFiles/cmTC_dc0cc.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc0cc.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DC_SUPPORTS_FPIC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -fPIC -o CMakeFiles/cmTC_dc0cc.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dc0cc
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0cc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_dc0cc.dir/src.c.o -o cmTC_dc0cc  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_65ad8/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_65ad8.dir/build.make CMakeFiles/cmTC_65ad8.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65ad8.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_FPIC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -fPIC -o CMakeFiles/cmTC_65ad8.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65ad8
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65ad8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_65ad8.dir/src.cxx.o -o cmTC_65ad8  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_6251c/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_6251c.dir/build.make CMakeFiles/cmTC_6251c.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6251c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -fPIC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_6251c.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6251c
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6251c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_6251c.dir/src.cxx.o -o cmTC_6251c  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_0aa9c/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0aa9c.dir/build.make CMakeFiles/cmTC_0aa9c.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0aa9c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wmissing-field-initializers -o CMakeFiles/cmTC_0aa9c.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0aa9c
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa9c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0aa9c.dir/src.cxx.o -o cmTC_0aa9c  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_0f446/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0f446.dir/build.make CMakeFiles/cmTC_0f446.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f446.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_0f446.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0f446
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f446.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0f446.dir/src.c.o -o cmTC_0f446  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_0d477/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0d477.dir/build.make CMakeFiles/cmTC_0d477.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d477.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_0d477.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0d477
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d477.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0d477.dir/src.cxx.o -o cmTC_0d477  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_eee3b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_eee3b.dir/build.make CMakeFiles/cmTC_eee3b.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eee3b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default  -std=c++11 -Werror=non-virtual-dtor -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_eee3b.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eee3b
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eee3b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default  -std=c++11 -Werror=non-virtual-dtor -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_eee3b.dir/src.cxx.o -o cmTC_eee3b  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+class base {public: virtual void anchor();protected: ~base();};
+                                 class derived final : public base { public: ~derived();};
+                                 int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_3199f/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_3199f.dir/build.make CMakeFiles/cmTC_3199f.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3199f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_3199f.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3199f
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3199f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3199f.dir/src.c.o -o cmTC_3199f  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_888ee/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_888ee.dir/build.make CMakeFiles/cmTC_888ee.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_888ee.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_888ee.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_888ee
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_888ee.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_888ee.dir/src.cxx.o -o cmTC_888ee  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_e7e2f/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e7e2f.dir/build.make CMakeFiles/cmTC_e7e2f.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7e2f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DC_WCOMMENT_ALLOWS_LINE_WRAP  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor  -Werror -Wcomment -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_e7e2f.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e7e2f
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7e2f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor  -Werror -Wcomment -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_e7e2f.dir/src.c.o -o cmTC_e7e2f  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_c60fe/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_c60fe.dir/build.make CMakeFiles/cmTC_c60fe.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c60fe.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DC_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Wstring-conversion -o CMakeFiles/cmTC_c60fe.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c60fe
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c60fe.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_c60fe.dir/src.c.o -o cmTC_c60fe  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_0f6ed/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0f6ed.dir/build.make CMakeFiles/cmTC_0f6ed.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f6ed.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Wstring-conversion -o CMakeFiles/cmTC_0f6ed.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0f6ed
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6ed.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0f6ed.dir/src.cxx.o -o cmTC_0f6ed  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_94523/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_94523.dir/build.make CMakeFiles/cmTC_94523.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94523.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DC_SUPPORTS_WERROR_DATE_TIME  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Werror=date-time -o CMakeFiles/cmTC_94523.dir/src.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_94523
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94523.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_94523.dir/src.c.o -o cmTC_94523  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_4067b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_4067b.dir/build.make CMakeFiles/cmTC_4067b.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4067b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_WERROR_DATE_TIME  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Werror=date-time -o CMakeFiles/cmTC_4067b.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4067b
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4067b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_4067b.dir/src.cxx.o -o cmTC_4067b  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_260be/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_260be.dir/build.make CMakeFiles/cmTC_260be.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_260be.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_CXX11  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -std=c++11 -o CMakeFiles/cmTC_260be.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_260be
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_260be.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_260be.dir/src.cxx.o -o cmTC_260be  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_1e729/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_1e729.dir/build.make CMakeFiles/cmTC_1e729.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e729.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_1e729.dir/CheckIncludeFile.c.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1e729
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e729.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1e729.dir/CheckIncludeFile.c.o -o cmTC_1e729 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_7cba3/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7cba3.dir/build.make CMakeFiles/cmTC_7cba3.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7cba3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time -std=c++11 -fno-common -Woverloaded-virtual  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror -Wnested-anon-types -o CMakeFiles/cmTC_7cba3.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7cba3
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cba3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time -std=c++11 -fno-common -Woverloaded-virtual  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_7cba3.dir/src.cxx.o -o cmTC_7cba3  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LINKER_ORDER_FILE_WORKS succeeded with the following output:
+Change Dir: /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_add84/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_add84.dir/build.make CMakeFiles/cmTC_add84.dir/build
+gmake[1]: Entering directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_add84.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DLINKER_ORDER_FILE_WORKS  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time -std=c++11 -fno-common -Woverloaded-virtual -Wno-nested-anon-types  -Wl,-order_file,/Users/darren/work/code/github/obfuscator/build/tools/clang/clang.order -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/cmTC_add84.dir/src.cxx.o -c /Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: -Wl,-order_file,/Users/darren/work/code/github/obfuscator/build/tools/clang/clang.order: 'linker' input unused [-Wunused-command-line-argument]
+Linking CXX executable cmTC_add84
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_add84.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wcovered-switch-default -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Werror=date-time -std=c++11 -fno-common -Woverloaded-virtual -Wno-nested-anon-types  -Wl,-order_file,/Users/darren/work/code/github/obfuscator/build/tools/clang/clang.order -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_add84.dir/src.cxx.o -o cmTC_add84  -lm 
+gmake[1]: Leaving directory '/Users/darren/work/code/github/obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
