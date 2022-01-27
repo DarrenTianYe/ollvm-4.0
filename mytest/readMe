@@ -1,0 +1,23 @@
+./build/bin/clang -mllvm -fla mytest/heloworld.c -o  mytest/fla_ollvm.aa -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+
+
+./build/bin/clang -emit-llvm -S  -c mytest/heloworld.c -o mytest/helloworld.ll -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+
+
+
+clang -emit-llvm -S  -c -target arm64-apple-darwin \
+      -arch arm64 \
+      -isysroot `xcrun --sdk iphoneos --show-sdk-path` \
+      -miphoneos-version-min=9.0 \
+      -fembed-bitcode \
+      mytest/test_1.c -o mytest/test_1.ll
+
+
+
+clang -emit-llvm -S  -c -target arm64-apple-darwin \
+      -arch arm64 \
+      -isysroot `xcrun --sdk iphoneos --show-sdk-path` \
+      -miphoneos-version-min=9.0 \
+      -fembed-bitcode \
+      mytest/tmp.cpp -o mytest/tmp.ll
+

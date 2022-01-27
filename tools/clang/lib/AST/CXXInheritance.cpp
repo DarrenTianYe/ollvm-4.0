@@ -88,7 +88,7 @@ bool CXXRecordDecl::isDerivedFrom(const CXXRecordDecl *Base,
   const CXXRecordDecl *BaseDecl = Base->getCanonicalDecl();
   // FIXME: Capturing 'this' is a workaround for name lookup bugs in GCC 4.7.
   return lookupInBases(
-      [this, BaseDecl](const CXXBaseSpecifier *Specifier, CXXBasePath &Path) {
+       [BaseDecl](const CXXBaseSpecifier *Specifier, CXXBasePath &Path) {
         return FindBaseClass(Specifier, Path, BaseDecl);
       },
       Paths);

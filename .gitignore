@@ -64,6 +64,7 @@ tools/avrlit
 docs/_build
 # VSCode config files.
 .vscode
+./build/
 
 #==============================================================================#
 # Files created in tree by the Go bindings.
