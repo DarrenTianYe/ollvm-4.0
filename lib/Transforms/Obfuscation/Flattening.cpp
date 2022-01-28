@@ -42,6 +42,7 @@ Pass *llvm::createFlattening(bool flag) { return new Flattening(flag); }
 bool Flattening::runOnFunction(Function &F) {
   Function *tmp = &F;
   // Do we obfuscate
+  llvm::errs() << "clang/tools/driver/driver.cpp/main()/shining_add" << '\n';
   if (toObfuscate(flag, tmp, "fla")) {
     if (flatten(tmp)) {
       ++Flattened;

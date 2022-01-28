@@ -1,10 +1,21 @@
-add_llvm_library(LLVMObfuscation
-  CryptoUtils.cpp
-  Substitution.cpp
-  BogusControlFlow.cpp
-  Utils.cpp
-  SplitBasicBlocks.cpp
-  Flattening.cpp
-  )
+add_library(SkeleonMyPass MODULE
+        # List your source files here.
+        SkeletonPass.cpp
+        )
 
-add_dependencies(LLVMObfuscation intrinsics_gen)
+# Use C++11 to compile our pass (i.e., supply -std=c++11).
+target_compile_features(SkeleonMyPass PRIVATE cxx_range_for cxx_auto_type)
+
+# LLVM is (typically) built with no C++ RTTI. We need to match that;
+# otherwise, we'll get linker errors about missing RTTI data.
+set_target_properties(SkeleonMyPass PROPERTIES
+        COMPILE_FLAGS "-fno-rtti"
+        )
+
+# Get proper shared-library behavior (where symbols are not necessarily
+# resolved when the shared library is linked) on OS X.
+if(APPLE)
+    set_target_properties(SkeleonMyPass PROPERTIES
+            LINK_FLAGS "-undefined dynamic_lookup"
+            )
+endif(APPLE)
