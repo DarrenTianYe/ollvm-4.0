@@ -5,7 +5,7 @@
 
 
 
-clang -emit-llvm -S  -c -target arm64-apple-darwin \
+./build/bin/clang -emit-llvm -S  -c -target arm64-apple-darwin \
       -arch arm64 \
       -isysroot `xcrun --sdk iphoneos --show-sdk-path` \
       -miphoneos-version-min=9.0 \
@@ -14,10 +14,31 @@ clang -emit-llvm -S  -c -target arm64-apple-darwin \
 
 
 
-clang -emit-llvm -S  -c -target arm64-apple-darwin \
+
+./build/bin/clang++ -emit-llvm -S  -c -target arm64-apple-darwin \
       -arch arm64 \
       -isysroot `xcrun --sdk iphoneos --show-sdk-path` \
       -miphoneos-version-min=9.0 \
       -fembed-bitcode \
       mytest/tmp.cpp -o mytest/tmp.ll
+
+
+
+
+/build/bin/clang  -Xclang -load -Xclang build/lib/libSkeleonMyPass.so  -c mytest/heloworld.c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+
+
+
+
+./build/bin/clang   -target arm64-apple-darwin \
+      -arch arm64 \
+      -isysroot `xcrun --sdk iphoneos --show-sdk-path` \
+      -miphoneos-version-min=9.0 \
+      -fembed-bitcode \
+      -Xclang -load -Xclang ./build/lib/libSkeleonMyPass.so -c mytest/heloworld.c -o  heloworld-libSkeleonMyPass
+
+
+
+./build/bin/clang    -c mytest/heloworld.c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+
 

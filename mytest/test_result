@@ -1,0 +1,319 @@
+./build/bin/clang   -target arm64-apple-darwin \
+      -arch arm64 \
+      -isysroot `xcrun --sdk iphoneos --show-sdk-path` \
+      -miphoneos-version-min=9.0 \
+      -fembed-bitcode \
+      -Xclang -load -Xclang ./build/lib/libSkeleonMyPass.so -c mytest/heloworld.c -o  heloworld-libSkeleonMyPass
+
+
+
+
+
+In a function called add_3!
+Function body:
+
+; Function Attrs: noinline nounwind ssp
+define i32 @add_3(i32, i32, i32) #0 {
+  %4 = alloca i32, align 4
+  %5 = alloca i32, align 4
+  %6 = alloca i32, align 4
+  %7 = alloca i32, align 4
+  store i32 %0, i32* %4, align 4
+  store i32 %1, i32* %5, align 4
+  store i32 %2, i32* %6, align 4
+  store i32 0, i32* %7, align 4
+  %8 = load i32, i32* %4, align 4
+  %9 = icmp sgt i32 %8, 10
+  br i1 %9, label %10, label %14
+
+; <label>:10:                                     ; preds = %3
+  %11 = load i32, i32* %4, align 4
+  %12 = load i32, i32* %5, align 4
+  %13 = add nsw i32 %11, %12
+  store i32 %13, i32* %7, align 4
+  br label %18
+
+; <label>:14:                                     ; preds = %3
+  %15 = load i32, i32* %4, align 4
+  %16 = load i32, i32* %6, align 4
+  %17 = add nsw i32 %15, %16
+  store i32 %17, i32* %7, align 4
+  br label %18
+
+; <label>:18:                                     ; preds = %14, %10
+  %19 = load i32, i32* %7, align 4
+  ret i32 %19
+}
+
+Basic block:
+
+  %4 = alloca i32, align 4
+  %5 = alloca i32, align 4
+  %6 = alloca i32, align 4
+  %7 = alloca i32, align 4
+  store i32 %0, i32* %4, align 4
+  store i32 %1, i32* %5, align 4
+  store i32 %2, i32* %6, align 4
+  store i32 0, i32* %7, align 4
+  %8 = load i32, i32* %4, align 4
+  %9 = icmp sgt i32 %8, 10
+  br i1 %9, label %10, label %14
+
+Instruction:   %4 = alloca i32, align 4
+Instruction:   %5 = alloca i32, align 4
+Instruction:   %6 = alloca i32, align 4
+Instruction:   %7 = alloca i32, align 4
+Instruction:   store i32 %0, i32* %4, align 4
+Instruction:   store i32 %1, i32* %5, align 4
+Instruction:   store i32 %2, i32* %6, align 4
+Instruction:   store i32 0, i32* %7, align 4
+Instruction:   %8 = load i32, i32* %4, align 4
+Instruction:   %9 = icmp sgt i32 %8, 10
+Instruction:   br i1 %9, label %10, label %14
+Basic block:
+
+; <label>:10:                                     ; preds = %3
+  %11 = load i32, i32* %4, align 4
+  %12 = load i32, i32* %5, align 4
+  %13 = add nsw i32 %11, %12
+  store i32 %13, i32* %7, align 4
+  br label %18
+
+Instruction:   %11 = load i32, i32* %4, align 4
+Instruction:   %12 = load i32, i32* %5, align 4
+Instruction:   %13 = add nsw i32 %11, %12
+Instruction:   store i32 %13, i32* %7, align 4
+Instruction:   br label %18
+Basic block:
+
+; <label>:14:                                     ; preds = %3
+  %15 = load i32, i32* %4, align 4
+  %16 = load i32, i32* %6, align 4
+  %17 = add nsw i32 %15, %16
+  store i32 %17, i32* %7, align 4
+  br label %18
+
+Instruction:   %15 = load i32, i32* %4, align 4
+Instruction:   %16 = load i32, i32* %6, align 4
+Instruction:   %17 = add nsw i32 %15, %16
+Instruction:   store i32 %17, i32* %7, align 4
+Instruction:   br label %18
+Basic block:
+
+; <label>:18:                                     ; preds = %14, %10
+  %19 = load i32, i32* %7, align 4
+  ret i32 %19
+
+Instruction:   %19 = load i32, i32* %7, align 4
+Instruction:   ret i32 %19
+In a function called add_4!
+Function body:
+
+; Function Attrs: noinline nounwind ssp
+define i32 @add_4(i32, i32, i32) #0 {
+  %4 = alloca i32, align 4
+  %5 = alloca i32, align 4
+  %6 = alloca i32, align 4
+  store i32 %0, i32* %4, align 4
+  store i32 %1, i32* %5, align 4
+  store i32 %2, i32* %6, align 4
+  store i32 0, i32* %6, align 4
+  %7 = load i32, i32* %4, align 4
+  switch i32 %7, label %20 [
+    i32 1, label %8
+    i32 2, label %12
+    i32 3, label %16
+  ]
+
+; <label>:8:                                      ; preds = %3
+  %9 = load i32, i32* %4, align 4
+  %10 = load i32, i32* %5, align 4
+  %11 = add nsw i32 %9, %10
+  store i32 %11, i32* %6, align 4
+  br label %21
+
+; <label>:12:                                     ; preds = %3
+  %13 = load i32, i32* %4, align 4
+  %14 = load i32, i32* %6, align 4
+  %15 = add nsw i32 %13, %14
+  store i32 %15, i32* %6, align 4
+  br label %21
+
+; <label>:16:                                     ; preds = %3
+  %17 = load i32, i32* %6, align 4
+  %18 = load i32, i32* %5, align 4
+  %19 = add nsw i32 %17, %18
+  store i32 %19, i32* %6, align 4
+  br label %21
+
+; <label>:20:                                     ; preds = %3
+  br label %21
+
+; <label>:21:                                     ; preds = %20, %16, %12, %8
+  %22 = load i32, i32* %6, align 4
+  ret i32 %22
+}
+
+Basic block:
+
+  %4 = alloca i32, align 4
+  %5 = alloca i32, align 4
+  %6 = alloca i32, align 4
+  store i32 %0, i32* %4, align 4
+  store i32 %1, i32* %5, align 4
+  store i32 %2, i32* %6, align 4
+  store i32 0, i32* %6, align 4
+  %7 = load i32, i32* %4, align 4
+  switch i32 %7, label %20 [
+    i32 1, label %8
+    i32 2, label %12
+    i32 3, label %16
+  ]
+
+Instruction:   %4 = alloca i32, align 4
+Instruction:   %5 = alloca i32, align 4
+Instruction:   %6 = alloca i32, align 4
+Instruction:   store i32 %0, i32* %4, align 4
+Instruction:   store i32 %1, i32* %5, align 4
+Instruction:   store i32 %2, i32* %6, align 4
+Instruction:   store i32 0, i32* %6, align 4
+Instruction:   %7 = load i32, i32* %4, align 4
+Instruction:   switch i32 %7, label %20 [
+    i32 1, label %8
+    i32 2, label %12
+    i32 3, label %16
+  ]
+Basic block:
+
+; <label>:8:                                      ; preds = %3
+  %9 = load i32, i32* %4, align 4
+  %10 = load i32, i32* %5, align 4
+  %11 = add nsw i32 %9, %10
+  store i32 %11, i32* %6, align 4
+  br label %21
+
+Instruction:   %9 = load i32, i32* %4, align 4
+Instruction:   %10 = load i32, i32* %5, align 4
+Instruction:   %11 = add nsw i32 %9, %10
+Instruction:   store i32 %11, i32* %6, align 4
+Instruction:   br label %21
+Basic block:
+
+; <label>:12:                                     ; preds = %3
+  %13 = load i32, i32* %4, align 4
+  %14 = load i32, i32* %6, align 4
+  %15 = add nsw i32 %13, %14
+  store i32 %15, i32* %6, align 4
+  br label %21
+
+Instruction:   %13 = load i32, i32* %4, align 4
+Instruction:   %14 = load i32, i32* %6, align 4
+Instruction:   %15 = add nsw i32 %13, %14
+Instruction:   store i32 %15, i32* %6, align 4
+Instruction:   br label %21
+Basic block:
+
+; <label>:16:                                     ; preds = %3
+  %17 = load i32, i32* %6, align 4
+  %18 = load i32, i32* %5, align 4
+  %19 = add nsw i32 %17, %18
+  store i32 %19, i32* %6, align 4
+  br label %21
+
+Instruction:   %17 = load i32, i32* %6, align 4
+Instruction:   %18 = load i32, i32* %5, align 4
+Instruction:   %19 = add nsw i32 %17, %18
+Instruction:   store i32 %19, i32* %6, align 4
+Instruction:   br label %21
+Basic block:
+
+; <label>:20:                                     ; preds = %3
+  br label %21
+
+Instruction:   br label %21
+Basic block:
+
+; <label>:21:                                     ; preds = %20, %16, %12, %8
+  %22 = load i32, i32* %6, align 4
+  ret i32 %22
+
+Instruction:   %22 = load i32, i32* %6, align 4
+Instruction:   ret i32 %22
+In a function called add!
+Function body:
+
+; Function Attrs: noinline nounwind ssp
+define i32 @add(i32, i32) #0 {
+  %3 = alloca i32, align 4
+  %4 = alloca i32, align 4
+  %5 = alloca i32, align 4
+  store i32 %0, i32* %3, align 4
+  store i32 %1, i32* %4, align 4
+  %6 = load i32, i32* %3, align 4
+  %7 = add nsw i32 7, %6
+  %8 = load i32, i32* %4, align 4
+  %9 = add nsw i32 %7, %8
+  store i32 %9, i32* %5, align 4
+  %10 = load i32, i32* %5, align 4
+  ret i32 %10
+}
+
+Basic block:
+
+  %3 = alloca i32, align 4
+  %4 = alloca i32, align 4
+  %5 = alloca i32, align 4
+  store i32 %0, i32* %3, align 4
+  store i32 %1, i32* %4, align 4
+  %6 = load i32, i32* %3, align 4
+  %7 = add nsw i32 7, %6
+  %8 = load i32, i32* %4, align 4
+  %9 = add nsw i32 %7, %8
+  store i32 %9, i32* %5, align 4
+  %10 = load i32, i32* %5, align 4
+  ret i32 %10
+
+Instruction:   %3 = alloca i32, align 4
+Instruction:   %4 = alloca i32, align 4
+Instruction:   %5 = alloca i32, align 4
+Instruction:   store i32 %0, i32* %3, align 4
+Instruction:   store i32 %1, i32* %4, align 4
+Instruction:   %6 = load i32, i32* %3, align 4
+Instruction:   %7 = add nsw i32 7, %6
+Instruction:   %8 = load i32, i32* %4, align 4
+Instruction:   %9 = add nsw i32 %7, %8
+Instruction:   store i32 %9, i32* %5, align 4
+Instruction:   %10 = load i32, i32* %5, align 4
+Instruction:   ret i32 %10
+In a function called main!
+Function body:
+
+; Function Attrs: noinline nounwind ssp
+define i32 @main() #0 {
+  %1 = alloca i32, align 4
+  store i32 0, i32* %1, align 4
+  %2 = call i32 @add(i32 1, i32 2)
+  %3 = call i32 @add_3(i32 1, i32 2, i32 3)
+  %4 = call i32 @add_4(i32 1, i32 2, i32 3)
+  ret i32 0
+}
+
+Basic block:
+
+  %1 = alloca i32, align 4
+  store i32 0, i32* %1, align 4
+  %2 = call i32 @add(i32 1, i32 2)
+  %3 = call i32 @add_3(i32 1, i32 2, i32 3)
+  %4 = call i32 @add_4(i32 1, i32 2, i32 3)
+  ret i32 0
+
+Instruction:   %1 = alloca i32, align 4
+Instruction:   store i32 0, i32* %1, align 4
+Instruction:   %2 = call i32 @add(i32 1, i32 2)
+Instruction:   %3 = call i32 @add_3(i32 1, i32 2, i32 3)
+Instruction:   %4 = call i32 @add_4(i32 1, i32 2, i32 3)
+Instruction:   ret i32 0
+clang/tools/driver/driver.cpp/main()/shining_add
+clang/tools/driver/driver.cpp/main()/shining_add
+clang/tools/driver/driver.cpp/main()/shining_add
+clang/tools/driver/driver.cpp/main()/shining_add
