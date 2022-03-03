@@ -26,7 +26,7 @@ int main(int argc, const char** argv) {
 //
 
 
-//./build/bin/clang -Xclang -load -Xclang build/lib/libSimplePass.so    -c mytest/example.c -o  mytest/example.c.myclang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+//./build/bin/clang -Xclang -load -Xclang build/lib/libSimplePass.so -c mytest/example.c -o  mytest/example.c.myclang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 //        getModule: 0x7fca48e0d100
 //inst: 0x7fca4a205628
 //inst: 0x7fca4a205628

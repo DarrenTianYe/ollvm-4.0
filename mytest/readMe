@@ -42,3 +42,6 @@
 ./build/bin/clang    -c mytest/heloworld.c -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 
 
+./build/bin/clang -Xclang -load -Xclang /Users/darren/work/code/github/obfuscator/build/lib/libSimplePass.so -c /Users/darren/work/code/github/obfuscator/mytest/example.c -o  /Users/darren/work/code/github/obfuscator/mytest/example.c.myclang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+
+

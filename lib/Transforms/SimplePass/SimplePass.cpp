@@ -56,10 +56,11 @@ namespace {
                 op->setHasNoSignedWrap(bo->hasNoSignedWrap());
                 op->setHasNoUnsignedWrap(bo->hasNoUnsignedWrap());
                 // 替换所有出现该指令的地方
+
+                errs() << "add ob_add getOpcode: "<< op->getOpcode()<<"\n";
                 bo->replaceAllUsesWith(op);
                 return true;
             }
-
         }
     };
 }
